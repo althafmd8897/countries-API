@@ -5,7 +5,7 @@ export default function Cards(props) {
   return (
     <div className='card'>  
       <ul class="list-group mt-3 flex-wrap  m-3 ">
-        <li class="list-group-item active" aria-current="true"> Name :{name}</li>
+        <li class="list-group-item active" aria-current="true"> Names :{name}</li>
         <li class="list-group-item"> Languages : {Object.values(lang)[0]}</li>
         <li class="list-group-item">Region :{region}</li>
         <li class="list-group-item">Population:{population}</li>
